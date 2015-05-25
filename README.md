@@ -5,6 +5,6 @@ It has a web method that receives an SVG file in form of a byte[] and returns th
 
 This only works on Microsoft Windows systems.
 
-**Authors**
+##Authors
 Andrés Manglano Cañizares
 Fayán Leonardo Pardo
