@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Statistic_IP">
+        <s:complexType />
+      </s:element>
+      <s:element name="Statistic_IPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Statistic_IPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="startThread_SVGtoPNG">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="inputfile" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="error" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="stringError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="startThread_SVGtoPNGResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="startThread_SVGtoPNGResult" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="error" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="stringError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isCompleteThread">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="error" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="stringError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isCompleteThreadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="isCompleteThreadResult" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="error" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="stringError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="readResult">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="error" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="stringError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="readResultResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="readResultResult" type="s:base64Binary" />
+            <s:element minOccurs="1" maxOccurs="1" name="error" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="stringError" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Statistic_IPSoapIn">
+    <wsdl:part name="parameters" element="tns:Statistic_IP" />
+  </wsdl:message>
+  <wsdl:message name="Statistic_IPSoapOut">
+    <wsdl:part name="parameters" element="tns:Statistic_IPResponse" />
+  </wsdl:message>
+  <wsdl:message name="startThread_SVGtoPNGSoapIn">
+    <wsdl:part name="parameters" element="tns:startThread_SVGtoPNG" />
+  </wsdl:message>
+  <wsdl:message name="startThread_SVGtoPNGSoapOut">
+    <wsdl:part name="parameters" element="tns:startThread_SVGtoPNGResponse" />
+  </wsdl:message>
+  <wsdl:message name="isCompleteThreadSoapIn">
+    <wsdl:part name="parameters" element="tns:isCompleteThread" />
+  </wsdl:message>
+  <wsdl:message name="isCompleteThreadSoapOut">
+    <wsdl:part name="parameters" element="tns:isCompleteThreadResponse" />
+  </wsdl:message>
+  <wsdl:message name="readResultSoapIn">
+    <wsdl:part name="parameters" element="tns:readResult" />
+  </wsdl:message>
+  <wsdl:message name="readResultSoapOut">
+    <wsdl:part name="parameters" element="tns:readResultResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceROSoap">
+    <wsdl:operation name="Statistic_IP">
+      <wsdl:input message="tns:Statistic_IPSoapIn" />
+      <wsdl:output message="tns:Statistic_IPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="startThread_SVGtoPNG">
+      <wsdl:input message="tns:startThread_SVGtoPNGSoapIn" />
+      <wsdl:output message="tns:startThread_SVGtoPNGSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="isCompleteThread">
+      <wsdl:input message="tns:isCompleteThreadSoapIn" />
+      <wsdl:output message="tns:isCompleteThreadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="readResult">
+      <wsdl:input message="tns:readResultSoapIn" />
+      <wsdl:output message="tns:readResultSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceROSoap" type="tns:WebServiceROSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Statistic_IP">
+      <soap:operation soapAction="http://tempuri.org/Statistic_IP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="startThread_SVGtoPNG">
+      <soap:operation soapAction="http://tempuri.org/startThread_SVGtoPNG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isCompleteThread">
+      <soap:operation soapAction="http://tempuri.org/isCompleteThread" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="readResult">
+      <soap:operation soapAction="http://tempuri.org/readResult" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceROSoap12" type="tns:WebServiceROSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Statistic_IP">
+      <soap12:operation soapAction="http://tempuri.org/Statistic_IP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="startThread_SVGtoPNG">
+      <soap12:operation soapAction="http://tempuri.org/startThread_SVGtoPNG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isCompleteThread">
+      <soap12:operation soapAction="http://tempuri.org/isCompleteThread" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="readResult">
+      <soap12:operation soapAction="http://tempuri.org/readResult" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceRO">
+    <wsdl:port name="WebServiceROSoap" binding="tns:WebServiceROSoap">
+      <soap:address location="http://carbonero.arcos.inf.uc3m.es/WebServiceRO.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceROSoap12" binding="tns:WebServiceROSoap12">
+      <soap12:address location="http://carbonero.arcos.inf.uc3m.es/WebServiceRO.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

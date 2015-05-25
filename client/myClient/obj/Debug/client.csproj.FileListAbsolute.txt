@@ -1,0 +1,21 @@
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\bin\Debug\myClient.exe.config
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\bin\Debug\myClient.exe
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\bin\Debug\myClient.pdb
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\obj\Debug\myClient.Client.resources
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\obj\Debug\myClient.Properties.Resources.resources
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\obj\Debug\client.csproj.GenerateResource.Cache
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\obj\Debug\myClient.exe
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\myClient\myClient\obj\Debug\myClient.pdb
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\client\myClient\bin\Debug\myClient.exe.config
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\client\myClient\obj\Debug\myClient.exe
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\client\myClient\obj\Debug\myClient.pdb
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\bin\Debug\myClient.exe.config
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\obj\Debug\myClient.exe
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\obj\Debug\myClient.pdb
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\bin\Debug\myClient.exe
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\bin\Debug\myClient.pdb
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\obj\Debug\client.csprojResolveAssemblyReference.cache
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\obj\Debug\myClient.Client.resources
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\obj\Debug\myClient.Properties.Resources.resources
+C:\Users\Andres\Repos\webberservice\Part2\client\myClient\obj\Debug\client.csproj.GenerateResource.Cache

@@ -1,0 +1,15 @@
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\service\service\bin\service.dll
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\service\service\bin\service.pdb
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\service\service\obj\Debug\server.csprojResolveAssemblyReference.cache
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\service\service\obj\Debug\service.dll
+C:\Users\Andres\Documents\Visual Studio 2012\Projects\service\service\obj\Debug\service.pdb
+C:\Users\Andres\Repos\webberservice\Part2\service\service\bin\service.dll
+C:\Users\Andres\Repos\webberservice\Part2\service\service\bin\service.pdb
+C:\Users\Andres\Repos\webberservice\Part2\service\service\obj\Debug\server.csprojResolveAssemblyReference.cache
+C:\Users\Andres\Repos\webberservice\Part2\service\service\obj\Debug\service.dll
+C:\Users\Andres\Repos\webberservice\Part2\service\service\obj\Debug\service.pdb
+C:\Users\Andres\Repos\webberservice\Part2\server\service\bin\service.dll
+C:\Users\Andres\Repos\webberservice\Part2\server\service\bin\service.pdb
+C:\Users\Andres\Repos\webberservice\Part2\server\service\obj\Debug\server.csprojResolveAssemblyReference.cache
+C:\Users\Andres\Repos\webberservice\Part2\server\service\obj\Debug\service.dll
+C:\Users\Andres\Repos\webberservice\Part2\server\service\obj\Debug\service.pdb
